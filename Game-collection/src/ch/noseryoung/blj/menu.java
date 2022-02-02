@@ -42,13 +42,15 @@ do {
         //number
         numberGuessing.numberGuessingGame();
     }else if (choiceI == 4){
-
+        System.out.println("Good bye!!");
     }
     else {
         System.out.println("Invalid input");
     }
 
 }while (choiceI != 4);
+        myScanner.close();
+
     }
 
 }
