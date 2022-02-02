@@ -7,7 +7,7 @@ public class hangman {
     private static String word = words[(int) (Math.random() * words.length)];
     private static String asterisk = new String(new char[word.length()]).replace("\0", "*");
     private static int count = 0;
-    public static void hangman(String[] args) {
+    public static void hangmangame() {
 
         /* neuer Scanner*/
         Scanner sc = new Scanner(System.in);

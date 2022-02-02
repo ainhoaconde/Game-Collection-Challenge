@@ -29,7 +29,7 @@ public class menu {
         }
         else if (choice == 2){
             //hangman
-
+            hangman.hangmangame();
         }
         else if (choice == 3) {
             //number
