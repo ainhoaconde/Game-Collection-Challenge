@@ -38,3 +38,8 @@ hs_err_pid*
 replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/java
+/.idea/vcs.xml
+/.idea/.gitignore
+/.idea/Game-Collection-Challenge.iml
+/.idea/misc.xml
+/.idea/modules.xml
