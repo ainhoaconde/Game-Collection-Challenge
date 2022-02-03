@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class rockPaper {
 
-        public static void rockPaper(String[] args) {
+        public static void rockPaperScissors() {
             int scissors = 1;
             int stone = 2;
             int paper = 3;
