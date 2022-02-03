@@ -20,7 +20,7 @@ public class hangman {
             String guess = sc.next();
             hang(guess);
         }
-        sc.close();
+
     }
     public static void hang(String guess) {
         String newasterisk = "";
