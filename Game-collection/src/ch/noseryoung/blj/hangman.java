@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class hangman {
 
     /*variablen festgelegt*/
-    private static String[] words = { "oper", "hund", "klasse", "mond", "yeti", "array", "mars", "auto", "zebra", "venus", "finanzdienstleistungsunternehmen", "wasserverschmutzung", "babypuppe", "quizshow", "puzzle", "brillant",2
+    private static String[] words = { "oper", "hund", "klasse", "mond", "yeti", "array", "mars", "auto", "zebra", "venus", "finanzdienstleistungsunternehmen", "wasserverschmutzung", "babypuppe", "quizshow", "puzzle", "brillant",
             "inn"};
     private static String word = words[(int) (Math.random() * words.length)];
     private static String asterisk = new String(new char[word.length()]).replace("\0", "*");
