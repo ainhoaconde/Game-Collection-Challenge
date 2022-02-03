@@ -34,10 +34,10 @@ public class numberGuessing {
                             "                                                            \n" +
                             "                                                            \n");
                 } else if (guess < secretNumber) {
-                    System.out.println("The number were looking for is bigger");
+                    System.out.println("The number were looking for is bigger!");
                     guesses--;
                 } else if (guess > secretNumber) {
-                    System.out.println("The number were looking for is smaller");
+                    System.out.println("The number were looking for is smaller!");
                     guesses--;
                 }
             }
