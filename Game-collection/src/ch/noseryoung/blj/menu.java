@@ -24,11 +24,12 @@ do {
             "| |              | || |              | || |              | || |              | |\n" +
             "| '--------------' || '--------------' || '--------------' || '--------------' |\n" +
             " '----------------'  '----------------'  '----------------'  '----------------' \n");
-
-    System.out.println("[1] - Rock Paper Scissors");
-    System.out.println("[2] - Hangman");
-    System.out.println("[3] - Number guessing game");
-    System.out.println("[4] - Exit programm");
+    System.out.println("+--------------------------------+");
+    System.out.println("|\t[1] - Rock Paper Scissors \t |");
+    System.out.println("|\t[2] - Hangman \t\t\t\t |");
+    System.out.println("|\t[3] - Number guessing game \t |");
+    System.out.println("|\t[4] - Exit programm \t\t |");
+    System.out.println("+--------------------------------+");
     choiceI = 0;
     choice = null;
 
