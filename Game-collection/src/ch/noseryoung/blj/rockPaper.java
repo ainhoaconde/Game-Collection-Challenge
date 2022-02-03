@@ -25,11 +25,11 @@ public class rockPaper {
             {
                 jackchoice = (int) (Math.random()*3);
 
-                System.out.println("Jacke has now made a choice");
+                System.out.println("Jacke has now made a choice!");
                 System.out.println("Now it is your turn to choose one \n " +
                         "1 = scissors \n" +
                         "    _______\n" +
-                        "---'   ____)____\n" +
+                        "---'   ____)_____\n" +
                         "          ______)\n" +
                         "       __________)\n" +
                         "      (____)\n" +
