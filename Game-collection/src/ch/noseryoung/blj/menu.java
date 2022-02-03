@@ -10,6 +10,7 @@ public class menu {
         Scanner myScanner = new Scanner(System.in); // Make scanner obj
         String choice;
         int choiceI = 0;
+        boolean finished = false;
 do {
     System.out.println("\n" +
             " .----------------.  .----------------.  .-----------------. .----------------. \n" +
@@ -28,27 +29,40 @@ do {
     System.out.println("[2] - Hangman");
     System.out.println("[3] - Number guessing game");
     System.out.println("[4] - Exit programm");
-    if (myScanner.hasNextLine()) {
-        choice = myScanner.nextLine();
-        choiceI = Integer.parseInt(choice);
-    }
+    choiceI = 0;
+    choice = null;
+
+    choice = myScanner.nextLine();
+    choiceI = Integer.parseInt(choice);
+
     if (choiceI == 1) {
         //Rock Paper
         rockPaper.rockPaperScissors();
+        choiceI = 0;
+        choice = null;
     } else if (choiceI == 2) {
         //hangman
         hangman.hangmangame();
+        choiceI = 0;
+        choice = null;
     } else if (choiceI == 3) {
         //number
         numberGuessing.numberGuessingGame();
+        choiceI = 0;
+        choice = null;
     }else if (choiceI == 4){
         System.out.println("Good bye!!");
+        finished = true;
     }
     else {
         System.out.println("Invalid input");
+        choiceI = 0;
+        choice = null;
     }
+    choiceI = 0;
+    choice = null;
 
-}while (choiceI != 4);
+}while (!finished);
         myScanner.close();
 
     }
